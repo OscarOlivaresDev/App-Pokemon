@@ -1,0 +1,12 @@
+<p style="font-size: 20px; text-align: center; font-weight: bold; padding: 16px;">Pokémon : {{name}}</p>
+<div class="input-field">
+    <input [(ngModel)]="name" placeholder="Ingresa el nombre de tu Pokémon">
+</div>
+<div class="poke-button">
+    <button (click)="searchPokemon()">Buscar...</button>
+</div>
+
+<div class="poke-img">
+    <img src="{{pokeImage}}" alt="Pokémon">
+</div>
+
